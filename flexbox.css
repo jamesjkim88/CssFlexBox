@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    height: 750px;
+}
+
+.div{
+    flex: 1;
+    min-width: 25%;
+    min-height: 100px;
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#one{
+    background-color: #f12b12;
+ }
+
+#two{
+    background-color: #a3f231;
+}
+
+#three{
+    background-color: #dd31fa;
+    order: 1;
+}
+
+#four{
+    background-color: #5f31ab;
+}
+
+#five{
+    background-color: #432235;
+}
+
+#six{
+    background-color: #331fab;
+}
+
+#seven{
+    background-color: #911abc;
+}
+
+#eight{
+    background-color: #31adbf;
+}
+
+#nine{
+    background-color: #361acd;
+}
+
+#ten{
+    background-color: #7a7bd6;
+}
+
+
